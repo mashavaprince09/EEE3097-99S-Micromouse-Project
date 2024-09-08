@@ -1,0 +1,28 @@
+-IC:/Users/masha/Documents/micromouse-20240824T210900Z-001/micromouse/MicroMouseTemplate_v1
+-IC:/ProgramData/MATLAB/SupportPackages/R2024a/toolbox/shared/supportpackages/stm32/include
+-IC:/Users/masha/Documents/micromouse-20240824T210900Z-001/micromouse/MicroMouseTemplate_v1/MicroMouseTemplate_ert_rtw/instrumented
+-IC:/Users/masha/Documents/micromouse-20240824T210900Z-001/micromouse/MicroMouseTemplate_v1/MicroMouseProgramming/Core/Inc
+-IC:/Users/masha/Documents/micromouse-20240824T210900Z-001/micromouse/MicroMouseTemplate_v1/MicroMouseProgramming/Core/Src/instrumented
+-IC:/Program\ Files/MATLAB/R2024a/extern/include
+-IC:/Program\ Files/MATLAB/R2024a/simulink/include
+-IC:/Program\ Files/MATLAB/R2024a/rtw/c/src
+-IC:/Program\ Files/MATLAB/R2024a/rtw/c/src/ext_mode/common
+-IC:/Program\ Files/MATLAB/R2024a/rtw/c/ert
+-IC:/Program\ Files/MATLAB/R2024a/toolbox/target/shared/armcortexmbase/scheduler/include
+-IC:/Program\ Files/MATLAB/R2024a/toolbox/target/shared/armcortexmbase/xcp/include
+-IC:/Program\ Files/MATLAB/R2024a/rtw/c/src/ext_mode/serial
+-IC:/Program\ Files/MATLAB/R2024a/toolbox/target/shared/svd/common/include
+-IC:/ProgramData/MATLAB/SupportPackages/R2024a/3P.instrset/cmsis.instrset/CMSIS/Core/Include
+-IC:/ProgramData/MATLAB/SupportPackages/R2024a/3P.instrset/cmsis_dsp.instrset/Include
+-IC:/ProgramData/MATLAB/SupportPackages/R2024a/3P.instrset/cmsis_dsp.instrset/Include/dsp
+-IC:/Users/masha/Documents/micromouse-20240824T210900Z-001/micromouse/MicroMouseTemplate_v1/MicroMouseProgramming/Drivers/STM32L4xx_HAL_Driver/Inc
+-IC:/Users/masha/Documents/micromouse-20240824T210900Z-001/micromouse/MicroMouseTemplate_v1/MicroMouseProgramming/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy
+-IC:/Users/masha/Documents/micromouse-20240824T210900Z-001/micromouse/MicroMouseTemplate_v1/MicroMouseProgramming/Middlewares/ST/STM32_USB_Device_Library/Core/Inc
+-IC:/Users/masha/Documents/micromouse-20240824T210900Z-001/micromouse/MicroMouseTemplate_v1/MicroMouseProgramming/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc
+-IC:/Users/masha/Documents/micromouse-20240824T210900Z-001/micromouse/MicroMouseTemplate_v1/MicroMouseProgramming/Drivers/CMSIS/Device/ST/STM32L4xx/Include
+-IC:/Users/masha/Documents/micromouse-20240824T210900Z-001/micromouse/MicroMouseTemplate_v1/MicroMouseProgramming/Drivers/CMSIS/Include
+-IC:/Users/masha/Documents/micromouse-20240824T210900Z-001/micromouse/MicroMouseTemplate_v1/MicroMouseProgramming/USB_DEVICE/App/instrumented
+-IC:/Users/masha/Documents/micromouse-20240824T210900Z-001/micromouse/MicroMouseTemplate_v1/MicroMouseProgramming/USB_DEVICE/Target/instrumented
+-I../../Core/Inc
+-I../../USB_DEVICE/App
+-I../../USB_DEVICE/Target
