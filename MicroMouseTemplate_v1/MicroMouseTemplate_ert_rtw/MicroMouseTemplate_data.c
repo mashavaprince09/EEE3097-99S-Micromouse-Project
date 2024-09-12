@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'MicroMouseTemplate'.
  *
- * Model version                  : 3.22
+ * Model version                  : 3.49
  * Simulink Coder version         : 24.1 (R2024a) 19-Nov-2023
- * C/C++ source code generated on : Sat Sep  7 13:46:51 2024
+ * C/C++ source code generated on : Thu Sep 12 21:30:47 2024
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex
@@ -22,219 +22,239 @@
 /* Block parameters (default storage) */
 P_MicroMouseTemplate_T MicroMouseTemplate_P = {
   /* Expression: 1
-   * Referenced by: '<S4>/Pulse Generator'
+   * Referenced by: '<S3>/Constant'
    */
   1.0,
 
-  /* Computed Parameter: PulseGenerator_Period
-   * Referenced by: '<S4>/Pulse Generator'
+  /* Expression: 10
+   * Referenced by: '<S3>/Constant1'
    */
-  4.0,
-
-  /* Computed Parameter: PulseGenerator_Duty
-   * Referenced by: '<S4>/Pulse Generator'
-   */
-  3.0,
-
-  /* Expression: 0
-   * Referenced by: '<S4>/Pulse Generator'
-   */
-  0.0,
+  10.0,
 
   /* Expression: 1
-   * Referenced by: '<S5>/Constant'
+   * Referenced by: '<S7>/Constant'
    */
   1.0,
 
   /* Expression: 1
-   * Referenced by: '<S8>/Constant'
+   * Referenced by: '<S11>/Constant'
    */
   1.0,
+
+  /* Expression: 0.01
+   * Referenced by: '<S1>/Quantizer1'
+   */
+  0.01,
+
+  /* Expression: 0.01
+   * Referenced by: '<S8>/Quantizer1'
+   */
+  0.01,
+
+  /* Expression: 0.01
+   * Referenced by: '<S6>/Quantizer1'
+   */
+  0.01,
 
   /* Computed Parameter: DataStoreMemory2_InitialValue
-   * Referenced by: '<S1>/Data Store Memory2'
+   * Referenced by: '<S2>/Data Store Memory2'
    */
   0,
 
   /* Computed Parameter: DataStoreMemory4_InitialValue
-   * Referenced by: '<S1>/Data Store Memory4'
+   * Referenced by: '<S2>/Data Store Memory4'
    */
   0,
 
   /* Computed Parameter: DataStoreMemory_InitialValue
-   * Referenced by: '<S7>/Data Store Memory'
+   * Referenced by: '<S10>/Data Store Memory'
    */
   0.0F,
 
   /* Computed Parameter: DataStoreMemory1_InitialValue
-   * Referenced by: '<S7>/Data Store Memory1'
+   * Referenced by: '<S10>/Data Store Memory1'
    */
   0.0F,
 
+  /* Computed Parameter: Gain2_Gain
+   * Referenced by: '<S1>/Gain2'
+   */
+  54080U,
+
+  /* Computed Parameter: Gain2_Gain_o
+   * Referenced by: '<S8>/Gain2'
+   */
+  54080U,
+
+  /* Computed Parameter: Gain2_Gain_f
+   * Referenced by: '<S6>/Gain2'
+   */
+  54080U,
+
   /* Computed Parameter: DataStoreMemory1_InitialValue_j
-   * Referenced by: '<S1>/Data Store Memory1'
+   * Referenced by: '<S2>/Data Store Memory1'
    */
   0U,
 
   /* Computed Parameter: Constant_Value_b
-   * Referenced by: '<S44>/Constant'
+   * Referenced by: '<S30>/Constant'
    */
   0U,
 
-  /* Computed Parameter: Constant1_Value
-   * Referenced by: '<S44>/Constant1'
+  /* Computed Parameter: Constant1_Value_c
+   * Referenced by: '<S30>/Constant1'
    */
   0U,
 
   /* Computed Parameter: DataStoreMemory_InitialValue_p
-   * Referenced by: '<S6>/Data Store Memory'
+   * Referenced by: '<S9>/Data Store Memory'
    */
   0U,
 
   /* Computed Parameter: DataStoreMemory1_InitialValue_p
-   * Referenced by: '<S6>/Data Store Memory1'
+   * Referenced by: '<S9>/Data Store Memory1'
    */
   0U,
 
   /* Computed Parameter: DataStoreMemory2_InitialValue_p
-   * Referenced by: '<S6>/Data Store Memory2'
+   * Referenced by: '<S9>/Data Store Memory2'
    */
   0U,
 
   /* Computed Parameter: DataStoreMemory_InitialValue_p4
-   * Referenced by: '<S1>/Data Store Memory'
+   * Referenced by: '<S2>/Data Store Memory'
    */
   false,
 
-  /* Start of '<S49>/MATLAB System6' */
+  /* Start of '<S35>/MATLAB System6' */
   {
     /* Expression: 0
-     * Referenced by: '<S49>/MATLAB System6'
+     * Referenced by: '<S35>/MATLAB System6'
      */
     0.0
   }
   ,
 
-  /* End of '<S49>/MATLAB System6' */
+  /* End of '<S35>/MATLAB System6' */
 
-  /* Start of '<S49>/MATLAB System5' */
+  /* Start of '<S35>/MATLAB System5' */
   {
     /* Expression: 0
-     * Referenced by: '<S49>/MATLAB System5'
+     * Referenced by: '<S35>/MATLAB System5'
      */
     0.0
   }
   ,
 
-  /* End of '<S49>/MATLAB System5' */
+  /* End of '<S35>/MATLAB System5' */
 
-  /* Start of '<S49>/MATLAB System4' */
+  /* Start of '<S35>/MATLAB System4' */
   {
     /* Expression: 0
-     * Referenced by: '<S49>/MATLAB System4'
+     * Referenced by: '<S35>/MATLAB System4'
      */
     0.0
   }
   ,
 
-  /* End of '<S49>/MATLAB System4' */
+  /* End of '<S35>/MATLAB System4' */
 
-  /* Start of '<S49>/MATLAB System3' */
+  /* Start of '<S35>/MATLAB System3' */
   {
     /* Expression: 0
-     * Referenced by: '<S49>/MATLAB System3'
+     * Referenced by: '<S35>/MATLAB System3'
      */
     0.0
   }
   ,
 
-  /* End of '<S49>/MATLAB System3' */
+  /* End of '<S35>/MATLAB System3' */
 
-  /* Start of '<S49>/MATLAB System2' */
+  /* Start of '<S35>/MATLAB System2' */
   {
     /* Expression: 0
-     * Referenced by: '<S49>/MATLAB System2'
+     * Referenced by: '<S35>/MATLAB System2'
      */
     0.0
   }
   ,
 
-  /* End of '<S49>/MATLAB System2' */
+  /* End of '<S35>/MATLAB System2' */
 
-  /* Start of '<S49>/MATLAB System1' */
+  /* Start of '<S35>/MATLAB System1' */
   {
     /* Expression: 0
-     * Referenced by: '<S49>/MATLAB System1'
+     * Referenced by: '<S35>/MATLAB System1'
      */
     0.0
   }
   ,
 
-  /* End of '<S49>/MATLAB System1' */
+  /* End of '<S35>/MATLAB System1' */
 
-  /* Start of '<S48>/MATLAB System2' */
+  /* Start of '<S34>/MATLAB System2' */
   {
     /* Expression: 0
-     * Referenced by: '<S48>/MATLAB System2'
+     * Referenced by: '<S34>/MATLAB System2'
      */
     0.0
   }
   ,
 
-  /* End of '<S48>/MATLAB System2' */
+  /* End of '<S34>/MATLAB System2' */
 
-  /* Start of '<S48>/MATLAB System1' */
+  /* Start of '<S34>/MATLAB System1' */
   {
     /* Expression: 0
-     * Referenced by: '<S48>/MATLAB System1'
+     * Referenced by: '<S34>/MATLAB System1'
      */
     0.0
   }
   ,
 
-  /* End of '<S48>/MATLAB System1' */
+  /* End of '<S34>/MATLAB System1' */
 
-  /* Start of '<S47>/MATLAB System4' */
+  /* Start of '<S33>/MATLAB System4' */
   {
     /* Expression: 0
-     * Referenced by: '<S47>/MATLAB System4'
+     * Referenced by: '<S33>/MATLAB System4'
      */
     0.0
   }
   ,
 
-  /* End of '<S47>/MATLAB System4' */
+  /* End of '<S33>/MATLAB System4' */
 
-  /* Start of '<S47>/MATLAB System3' */
+  /* Start of '<S33>/MATLAB System3' */
   {
     /* Expression: 0
-     * Referenced by: '<S47>/MATLAB System3'
+     * Referenced by: '<S33>/MATLAB System3'
      */
     0.0
   }
   ,
 
-  /* End of '<S47>/MATLAB System3' */
+  /* End of '<S33>/MATLAB System3' */
 
-  /* Start of '<S47>/MATLAB System2' */
+  /* Start of '<S33>/MATLAB System2' */
   {
     /* Expression: 0
-     * Referenced by: '<S47>/MATLAB System2'
+     * Referenced by: '<S33>/MATLAB System2'
      */
     0.0
   }
   ,
 
-  /* End of '<S47>/MATLAB System2' */
+  /* End of '<S33>/MATLAB System2' */
 
-  /* Start of '<S47>/MATLAB System1' */
+  /* Start of '<S33>/MATLAB System1' */
   {
     /* Expression: 0
-     * Referenced by: '<S47>/MATLAB System1'
+     * Referenced by: '<S33>/MATLAB System1'
      */
     0.0
   }
-  /* End of '<S47>/MATLAB System1' */
+  /* End of '<S33>/MATLAB System1' */
 };
 
 /*
