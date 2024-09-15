@@ -7,11 +7,109 @@
 %endfunction
 %function ChartDataMap(block, system) void
   %createrecord ChartDataElements {\
-    NumChartData   2 \
+    NumChartData   18 \
     ChartDataDefaults {\
       RecordType   "ChartData"\
       Dimensions   []\
       IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "counter"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "counter"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "baseline_LS_FWD"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "baseline_LS_FWD"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "baseline_RS_FWD"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "baseline_RS_FWD"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "sum_LS_FWD"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "sum_LS_FWD"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "sum_RS_FWD"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "sum_RS_FWD"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "baseline_LS"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "baseline_LS"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "baseline_RS"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "baseline_RS"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "c"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "c"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "sum_DOWN_LS"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "sum_DOWN_LS"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "sum_DOWN_RS"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "sum_DOWN_RS"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "sum_LS"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "sum_LS"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "sum_MOT_LS"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "sum_MOT_LS"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "sum_MOT_RS"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "sum_MOT_RS"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "sum_RS"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "sum_RS"\
+      SrcLocation  ""\
     }\
     ChartData {\
       Name         "is_active_c2_MicroMouseTemplate"\
@@ -23,6 +121,20 @@
     ChartData {\
       Name         "is_c2_MicroMouseTemplate"\
       Description  "StateActiveChild"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Empty_Path1"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Empty_Path1"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i1"\
+      Description  "TemporalCounter"\
       SFName       ""\
       Path         ""\
       SrcLocation  ""\
