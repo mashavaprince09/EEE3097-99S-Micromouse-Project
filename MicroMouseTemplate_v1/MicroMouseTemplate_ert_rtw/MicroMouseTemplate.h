@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'MicroMouseTemplate'.
  *
- * Model version                  : 3.69
+ * Model version                  : 3.230
  * Simulink Coder version         : 24.1 (R2024a) 19-Nov-2023
- * C/C++ source code generated on : Sun Sep 15 02:06:36 2024
+ * C/C++ source code generated on : Sun Sep 22 03:04:01 2024
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex
@@ -122,21 +122,22 @@ typedef struct {
   real_T counter;                      /* '<Root>/HelloMicroMouse!' */
   real_T baseline_LS_FWD;              /* '<Root>/HelloMicroMouse!' */
   real_T baseline_RS_FWD;              /* '<Root>/HelloMicroMouse!' */
-  real_T sum_LS_FWD;                   /* '<Root>/HelloMicroMouse!' */
-  real_T sum_RS_FWD;                   /* '<Root>/HelloMicroMouse!' */
+  real_T baseline_DOWN_LS;             /* '<Root>/HelloMicroMouse!' */
+  real_T baseline_DOWN_RS;             /* '<Root>/HelloMicroMouse!' */
   real_T baseline_LS;                  /* '<Root>/HelloMicroMouse!' */
   real_T baseline_RS;                  /* '<Root>/HelloMicroMouse!' */
   real_T c;                            /* '<Root>/HelloMicroMouse!' */
-  real_T sum_DOWN_LS;                  /* '<Root>/HelloMicroMouse!' */
-  real_T sum_DOWN_RS;                  /* '<Root>/HelloMicroMouse!' */
-  real_T sum_LS;                       /* '<Root>/HelloMicroMouse!' */
-  real_T sum_MOT_LS;                   /* '<Root>/HelloMicroMouse!' */
-  real_T sum_MOT_RS;                   /* '<Root>/HelloMicroMouse!' */
-  real_T sum_RS;                       /* '<Root>/HelloMicroMouse!' */
+  real_T start;                        /* '<Root>/HelloMicroMouse!' */
+  real_T turn;                         /* '<Root>/HelloMicroMouse!' */
+  real_T minLeftADC;                   /* '<Root>/HelloMicroMouse!' */
+  real_T minRightADC;                  /* '<Root>/HelloMicroMouse!' */
+  real_T speed;                        /* '<Root>/HelloMicroMouse!' */
+  real_T adjustmentSpeed;              /* '<Root>/HelloMicroMouse!' */
+  real_T minSpeed;                     /* '<Root>/HelloMicroMouse!' */
   int32_T clockTickCounter;            /* '<S12>/Pulse Generator' */
   struct {
+    uint_T is_Empty_Path11:4;          /* '<Root>/HelloMicroMouse!' */
     uint_T is_c2_MicroMouseTemplate:3; /* '<Root>/HelloMicroMouse!' */
-    uint_T is_Empty_Path1:3;           /* '<Root>/HelloMicroMouse!' */
     uint_T is_active_c2_MicroMouseTemplate:1;/* '<Root>/HelloMicroMouse!' */
   } bitsForTID0;
 
@@ -241,7 +242,7 @@ struct P_MicroMouseTemplate_T_ {
   real_T Quantizer1_Interval_b;        /* Expression: 0.01
                                         * Referenced by: '<S1>/Quantizer1'
                                         */
-  real_T Quantizer1_Interval_k;        /* Expression: 0.01
+  real_T Quantizer1_Interval_bc;       /* Expression: 0.01
                                         * Referenced by: '<S4>/Quantizer1'
                                         */
   real_T Quantizer1_Interval_j;        /* Expression: 0.01
@@ -250,10 +251,10 @@ struct P_MicroMouseTemplate_T_ {
   real_T Quantizer1_Interval_e;        /* Expression: 0.01
                                         * Referenced by: '<S6>/Quantizer1'
                                         */
-  real_T Quantizer1_Interval_ea;       /* Expression: 0.01
+  real_T Quantizer1_Interval_l;        /* Expression: 0.01
                                         * Referenced by: '<S7>/Quantizer1'
                                         */
-  real_T Quantizer1_Interval_kz;       /* Expression: 0.01
+  real_T Quantizer1_Interval_k;        /* Expression: 0.01
                                         * Referenced by: '<S8>/Quantizer1'
                                         */
   real_T Quantizer1_Interval_a;        /* Expression: 0.01
@@ -287,16 +288,16 @@ struct P_MicroMouseTemplate_T_ {
   uint16_T Gain2_Gain_n;               /* Computed Parameter: Gain2_Gain_n
                                         * Referenced by: '<S1>/Gain2'
                                         */
-  uint16_T Gain2_Gain_f;               /* Computed Parameter: Gain2_Gain_f
+  uint16_T Gain2_Gain_b;               /* Computed Parameter: Gain2_Gain_b
                                         * Referenced by: '<S4>/Gain2'
                                         */
   uint16_T Gain2_Gain_j;               /* Computed Parameter: Gain2_Gain_j
                                         * Referenced by: '<S5>/Gain2'
                                         */
-  uint16_T Gain2_Gain_fp;              /* Computed Parameter: Gain2_Gain_fp
+  uint16_T Gain2_Gain_f;               /* Computed Parameter: Gain2_Gain_f
                                         * Referenced by: '<S6>/Gain2'
                                         */
-  uint16_T Gain2_Gain_g;               /* Computed Parameter: Gain2_Gain_g
+  uint16_T Gain2_Gain_f0;              /* Computed Parameter: Gain2_Gain_f0
                                         * Referenced by: '<S7>/Gain2'
                                         */
   uint16_T Gain2_Gain_k;               /* Computed Parameter: Gain2_Gain_k

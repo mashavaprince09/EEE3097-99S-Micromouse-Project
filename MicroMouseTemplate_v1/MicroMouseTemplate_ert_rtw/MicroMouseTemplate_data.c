@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'MicroMouseTemplate'.
  *
- * Model version                  : 3.69
+ * Model version                  : 3.230
  * Simulink Coder version         : 24.1 (R2024a) 19-Nov-2023
- * C/C++ source code generated on : Sun Sep 15 02:06:36 2024
+ * C/C++ source code generated on : Sun Sep 22 03:04:01 2024
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex
@@ -201,7 +201,7 @@ P_MicroMouseTemplate_T MicroMouseTemplate_P = {
    */
   54080U,
 
-  /* Computed Parameter: Gain2_Gain_f
+  /* Computed Parameter: Gain2_Gain_b
    * Referenced by: '<S4>/Gain2'
    */
   54080U,
@@ -211,12 +211,12 @@ P_MicroMouseTemplate_T MicroMouseTemplate_P = {
    */
   54080U,
 
-  /* Computed Parameter: Gain2_Gain_fp
+  /* Computed Parameter: Gain2_Gain_f
    * Referenced by: '<S6>/Gain2'
    */
   54080U,
 
-  /* Computed Parameter: Gain2_Gain_g
+  /* Computed Parameter: Gain2_Gain_f0
    * Referenced by: '<S7>/Gain2'
    */
   54080U,

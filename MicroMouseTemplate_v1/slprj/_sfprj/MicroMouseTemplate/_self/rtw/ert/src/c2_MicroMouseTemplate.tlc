@@ -7,7 +7,7 @@
 %endfunction
 %function ChartDataMap(block, system) void
   %createrecord ChartDataElements {\
-    NumChartData   18 \
+    NumChartData   19 \
     ChartDataDefaults {\
       RecordType   "ChartData"\
       Dimensions   []\
@@ -35,17 +35,17 @@
       SrcLocation  ""\
     }\
     ChartData {\
-      Name         "sum_LS_FWD"\
+      Name         "baseline_DOWN_LS"\
       Description  "ChartLocal"\
       SFName       ""\
-      Path         "sum_LS_FWD"\
+      Path         "baseline_DOWN_LS"\
       SrcLocation  ""\
     }\
     ChartData {\
-      Name         "sum_RS_FWD"\
+      Name         "baseline_DOWN_RS"\
       Description  "ChartLocal"\
       SFName       ""\
-      Path         "sum_RS_FWD"\
+      Path         "baseline_DOWN_RS"\
       SrcLocation  ""\
     }\
     ChartData {\
@@ -70,45 +70,52 @@
       SrcLocation  ""\
     }\
     ChartData {\
-      Name         "sum_DOWN_LS"\
+      Name         "start"\
       Description  "ChartLocal"\
       SFName       ""\
-      Path         "sum_DOWN_LS"\
+      Path         "start"\
       SrcLocation  ""\
     }\
     ChartData {\
-      Name         "sum_DOWN_RS"\
+      Name         "turn"\
       Description  "ChartLocal"\
       SFName       ""\
-      Path         "sum_DOWN_RS"\
+      Path         "turn"\
       SrcLocation  ""\
     }\
     ChartData {\
-      Name         "sum_LS"\
+      Name         "minLeftADC"\
       Description  "ChartLocal"\
       SFName       ""\
-      Path         "sum_LS"\
+      Path         "minLeftADC"\
       SrcLocation  ""\
     }\
     ChartData {\
-      Name         "sum_MOT_LS"\
+      Name         "minRightADC"\
       Description  "ChartLocal"\
       SFName       ""\
-      Path         "sum_MOT_LS"\
+      Path         "minRightADC"\
       SrcLocation  ""\
     }\
     ChartData {\
-      Name         "sum_MOT_RS"\
+      Name         "speed"\
       Description  "ChartLocal"\
       SFName       ""\
-      Path         "sum_MOT_RS"\
+      Path         "speed"\
       SrcLocation  ""\
     }\
     ChartData {\
-      Name         "sum_RS"\
+      Name         "adjustmentSpeed"\
       Description  "ChartLocal"\
       SFName       ""\
-      Path         "sum_RS"\
+      Path         "adjustmentSpeed"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "minSpeed"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "minSpeed"\
       SrcLocation  ""\
     }\
     ChartData {\
@@ -126,10 +133,10 @@
       SrcLocation  ""\
     }\
     ChartData {\
-      Name         "is_Empty_Path1"\
+      Name         "is_Empty_Path11"\
       Description  "StateActiveChild"\
       SFName       ""\
-      Path         "Empty_Path1"\
+      Path         "Empty_Path11"\
       SrcLocation  ""\
     }\
     ChartData {\
